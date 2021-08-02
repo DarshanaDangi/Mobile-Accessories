@@ -1,0 +1,94 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-nav{
+    text-decoration: none;
+}
+
+.MAS img{ 
+    margin-top: 20px;  
+}
+
+.flex{
+        display: flex;
+        flex-direction: row;
+      }
+
+#explore h2{
+    margin: 40px;
+}   
+
+#explore button{
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+#TSB h2{
+  margin:40px;
+}
+
+#TSB img{
+  padding: 20px;
+}
+
+#filter{
+  margin: 40px auto;
+  margin-top: 40px;
+}
+ #filter h2{
+   margin: 40px;
+ }
+#filter ul{
+  display: flex;
+  margin-bottom: 10px;
+  text-align: center;
+}
+#filter ul li{
+  list-style: none;
+  background: #eee;
+  padding: 8px 20px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#filter ul li.active{
+background: red;
+color: white;
+}
+
+.product{
+  display: flex;
+  flex-wrap: flex;
+}
+
+.product-box img{
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.product .itembox.hide{
+  display: none;
+}
+
+
+footer{
+  margin-top: 80px;
+}
+
+footer h4,p,span{
+  margin-top: 20px;
+}
+
+      /* Responsive layout - makes a one column layout instead of a two-column layout */
+      @media (max-width: 850px) {
+        .flex{
+          flex-direction: column;
+          margin: 0 auto;
+          justify-content: center;
+        }
+      }
